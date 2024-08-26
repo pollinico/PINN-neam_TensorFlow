@@ -4,9 +4,9 @@ We consider a beam on two supports and with a distributed load.
 
 We approximate the numerical solution of the differential equation of the beam with a neural network:   
 
-$$EI \frac{\partial ^4 u}{\partial x ^4}  - p = 0$$    
+$$EI \frac{\partial ^4 u(x)}{\partial x ^4}  - p = 0$$    
 
-$$u(0)=0, u(L)=0,  \frac{\partial^2u}{\partial x^2}(0)=0,  \frac{\partial^2u}{\partial x^2}(L)=0.$$   
+$$u(0)=0, u(L)=0,  \frac{\partial^2 u(0)}{\partial x^2}=0,  \frac{\partial^2 u(L)}{\partial x^2}=0.$$   
 
 We use the [TensorFlow](https://www.tensorflow.org/) library for machine learning.    
 
