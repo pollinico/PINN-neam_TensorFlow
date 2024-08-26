@@ -6,7 +6,7 @@ We approximate the numerical solution of the differential equation of the beam w
 
 $$EI \frac{\partial ^4 u}{\partial x ^4}  - p = 0$$    
 
-$$u(0)=0, \, u(L)=0, \, \frac{\partial^u}{\partial x^2}(0)=0, \, \frac{\partial^u}{\partial x^2}(L)=0.$$   
+$$u(0)=0, u(L)=0,  \frac{\partial^2u}{\partial x^2}(0)=0,  \frac{\partial^2u}{\partial x^2}(L)=0.$$   
 
 We use the [TensorFlow](https://www.tensorflow.org/) library for machine learning.    
 
